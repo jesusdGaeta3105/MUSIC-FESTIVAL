@@ -1,0 +1,20 @@
+#Music Festival
+
+Welcome to the **Music Festival** project. This website is designed to offer information about a two-day music festival, including details about the concerts, artists, tickets, and a photo gallery. It is also fully **responsive**, ensuring an optimal user experience on different devices.
+
+## Features
+- **Main Page**: General information about the concerts and artists performing at the festival.
+- **Information for the Two Days of the Festival**: Calendar with concert times and details about what will happen on each day.
+- **Ticket Section**: Information about purchasing tickets for the event.
+- **Photo Gallery**: Images of the singers and their concerts to provide a preview of the event.
+- **Video**: A video that presents a preview or summary of the festival.
+- **Responsive**: The design adapts to mobile devices, tablets, and desktops for a better user experience.
+
+## Technologies Used
+- **HTML**: Site content structure.
+- **CSS**: Visual styles for site presentation.
+- **SCSS**: Preprocessed styles to facilitate CSS organization and scalability.
+- **JavaScript**: Interactive and dynamic features to improve the user experience.
+- **Gulp**: Automation tool used to compile SCSS, minify files, and optimize workflow.
+- **package.json**: Dependency management and development scripts.
+
