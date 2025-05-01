@@ -1,0 +1,46 @@
+@use 'variables';
+
+@mixin phone {
+    @media (min-width: 480px) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: 992px) {
+        @content;
+    }
+}
+
+@mixin desktopXL {
+    @media (min-width: 1200px) {
+        @content;
+    }
+}
+
+//mixin con parametros
+//@mixin heading($color:blue)//si no se pasas ningun parametro va a hagarrar el azul
+//{
+//color:$color;
+//}
+
+//ES COMO FUNCIONES TAMBIEN HAY IF
+
+@mixin grid($columnas, $spaciado)
+{
+    display: grid;
+    grid-template-columns: repeat($columnas, 1fr);
+    gap: $spaciado;
+}
+
+@mixin resetearlista {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
